@@ -16,7 +16,7 @@ app.get('/user', (request, response) => {
             response.send({ status: "success", data: data })
         else
             response.send({ status: "error", error: error })
-    })
+    }) 
 })
 
 app.get('/product', (request, response) => {
